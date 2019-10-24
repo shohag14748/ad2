@@ -661,23 +661,23 @@
         
         
         
-        .ad300x250{
+        .ad300x50{
             width: 300px;
-            height: 250px;
+            height: 50px;
             display: block;
             position: relative;
             overflow: hidden;
             border: 1px solid #000;
         }
-        .ad300x250 .slide1{
+        .ad300x50 .slide1{
             background-image: linear-gradient(rgba(33,62,128,.8) ,rgba(33,62,128,.8)),url(image/lightning_PNG25.png),url(image/Hurricane-Irma.jpg);
             height: 100%;
             width: 130%;
             position: absolute;
             top: 0;
             left: 0;
-            background-size: auto, 150%, cover;
-            background-position: left, right bottom,right;
+            background-size: 100% ,  auto 100%;
+            background-position: center ,right;
             background-repeat: no-repeat;
             animation: slide1 .8s ease-in;
             animation-fill-mode: forwards;
@@ -693,14 +693,14 @@
             }
         }
         
-        .ad300x250 .slide1-text{
+        .ad300x50 .slide1-text{
             position: absolute;
             top: 0;
             color: #fff;
-            width: 300px;
+            width: 280px;
             font-family: 'Domine', serif;
-            font-size: 25px;
-            padding: 20px;
+            font-size: 16px;
+            padding: 10px;
             margin: 0;
             opacity: 0;
             animation: slide1-text 1.5s ease;
@@ -718,11 +718,12 @@
             }
         }
         
-        .ad300x250 .main-image{
+        .ad300x50 .main-image{
             position: absolute;
-            width: 150%;
+            width: 120%;
             right: 0;
             opacity: 0;
+            top: -100%;
             animation: slide2 1.5s ease;
             animation-fill-mode: forwards;
             animation-delay: 3s;
@@ -739,15 +740,17 @@
             }
         }
         
-        .ad300x250 .slide2-text{
+        .ad300x50 .slide2-text{
             position: absolute;
             font-family: 'Domine', serif;
-            font-size: 20px;
-            padding: 10px 20px;
+            font-size: 12px;
+            padding: 5px 10px;
             color: #fff;
             background: #213e80;
+            width: 160px;
             bottom: 0;
             margin: 0;
+            right: 0;
             opacity: 0;
             animation: slide2-text 6s ease;
             animation-fill-mode: forwards;
@@ -771,23 +774,23 @@
                 opacity: 0;
             }
         }
-        .ad300x250 .highlight img{
+        .ad300x50 .highlight img{
             position: absolute;
-            width: 110px;
+            width: 35px;
             border-radius: 50%;
-            border: 4px solid rgba(255,255,255,.6);
+            border: 1px solid rgba(255,255,255,.6);
             transform: scale(0);
         }
-        .ad300x250 .highlight-image1{
-            top: 20px;
-            left: 20px;
+        .ad300x50 .highlight-image1{
+            top: 1px;
+            left: 10px;
             animation: highlight-image 1.5s cubic-bezier(.43,1.91,.35,.74);
             animation-fill-mode: forwards;
             animation-delay: 5.5s;
         }
-        .ad300x250 .highlight-image2{
-            top: 20px;
-            right: 20px;
+        .ad300x50 .highlight-image2{
+            top: 1px;
+            left: 65px;
             animation: highlight-image 1.5s cubic-bezier(.43,1.91,.35,.74);
             animation-fill-mode: forwards;
             animation-delay: 5.5s;
@@ -800,41 +803,41 @@
                 transform: scale(1);
             }
         }
-        .ad300x250 .highlight p{
+        .ad300x50 .highlight p{
+            margin: 0;
             position: absolute;
             color: #fff;
             font-family: 'Roboto Condensed', sans-serif;
-            font-size: 15px;
-            font-weight: bold;
+            font-size: 7px;
             background: rgb(33,62,128);
-            padding: 2px 5px;
+            padding: 1px 5px;
             border-radius: 5px;
             animation: highlight-image 1s cubic-bezier(.43,1.91,.35,.74);
             animation-fill-mode: forwards;
             animation-delay: 7s;
             transform: scale(0);
         }
-        .ad300x250 .highlight .hail{
-            left: 36px;
-            top: 129px;
+        .ad300x50 .highlight .hail{
+            left: 5px;
+            bottom: 1px;
         }
-        .ad300x250 .highlight .wind{
-            right: 32px;
-            top: 129px;
+        .ad300x50 .highlight .wind{
+            left: 58.3px;
+            bottom: 1px;
         }
                 
-        .ad300x250 .button{
+        .ad300x50 .button{
             position: absolute;
             background: rgb(33,62,128);
-            padding: 5px 30px;
-            font-size: 20px;
+            padding: 5px 20px;
+            font-size: 14px;
             color: #fff;
             font-family: 'Roboto Condensed', sans-serif;
             border-radius: 10px;
             box-shadow: 0px 2px #fff;
             letter-spacing: .5px;
-            bottom: 25px;
-            left: 28px;
+            bottom: 15px;
+            right: 10px;
             animation: button 1.5s ease;
             animation-fill-mode: forwards;
             animation-delay: 8.5s;
@@ -849,11 +852,11 @@
                 opacity: 1;
             }
         }
-        .ad300x250 .copyright{
+        .ad300x50 .copyright{
             position: absolute;
             bottom: 2px;right: 5px;
             margin: 0;
-            font-size: 10px;
+            font-size: 8px;
             color: #fff;
             animation: copyright 1s ease;
             animation-fill-mode: forwards;
@@ -868,6 +871,671 @@
                 opacity: 1;
             }
         }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        .ad320x50{
+            width: 320px;
+            height: 50px;
+            display: block;
+            position: relative;
+            overflow: hidden;
+            border: 1px solid #000;
+        }
+        .ad320x50 .slide1{
+            background-image: linear-gradient(rgba(33,62,128,.8) ,rgba(33,62,128,.8)),url(image/lightning_PNG25.png),url(image/Hurricane-Irma.jpg);
+            height: 100%;
+            width: 130%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-size: 100% ,  auto 100%;
+            background-position: center ,right;
+            background-repeat: no-repeat;
+            animation: slide1 .8s ease-in;
+            animation-fill-mode: forwards;
+        }
+        @keyframes slide1{
+            0%{
+                left: -60px;
+                opacity: 0;
+            }
+            100%{
+                top: 0px;
+                opacity: 1;
+            }
+        }
+        
+        .ad320x50 .slide1-text{
+            position: absolute;
+            top: 0;
+            color: #fff;
+            width: 280px;
+            font-family: 'Domine', serif;
+            font-size: 16px;
+            padding: 10px;
+            margin: 0;
+            opacity: 0;
+            animation: slide1-text 1.5s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 1s;
+        }
+        @keyframes slide1-text{
+            0%{
+                top: 40px;
+                opacity: 0;
+            }
+            100%{
+                top: 0px;
+                opacity: 1;
+            }
+        }
+        
+        .ad320x50 .main-image{
+            position: absolute;
+            width: 120%;
+            right: 0;
+            opacity: 0;
+            top: -100%;
+            animation: slide2 1.5s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 3s;
+        }
+        
+        @keyframes slide2{
+            0%{
+                right: 0px;
+                opacity: 0;
+            }
+            100%{
+                right: -50px;
+                opacity: 1;
+            }
+        }
+        
+        .ad320x50 .slide2-text{
+            position: absolute;
+            font-family: 'Domine', serif;
+            font-size: 12px;
+            padding: 5px 10px;
+            color: #fff;
+            background: #213e80;
+            width: 160px;
+            bottom: 0;
+            margin: 0;
+            right: 0;
+            opacity: 0;
+            animation: slide2-text 6s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 4s;
+        }
+        @keyframes slide2-text{
+            0%{
+                bottom: -100%;
+                opacity: 0;
+            }
+            25%{
+                bottom: 0px;
+                opacity: 1;
+            }
+            75%{
+                bottom: 0px;
+                opacity: 1;
+            }
+            100%{
+                bottom: -100%;
+                opacity: 0;
+            }
+        }
+        .ad320x50 .highlight img{
+            position: absolute;
+            width: 35px;
+            border-radius: 50%;
+            border: 1px solid rgba(255,255,255,.6);
+            transform: scale(0);
+        }
+        .ad320x50 .highlight-image1{
+            top: 1px;
+            left: 10px;
+            animation: highlight-image 1.5s cubic-bezier(.43,1.91,.35,.74);
+            animation-fill-mode: forwards;
+            animation-delay: 5.5s;
+        }
+        .ad320x50 .highlight-image2{
+            top: 1px;
+            left: 65px;
+            animation: highlight-image 1.5s cubic-bezier(.43,1.91,.35,.74);
+            animation-fill-mode: forwards;
+            animation-delay: 5.5s;
+        }
+        @keyframes highlight-image{
+            0%{
+                transform: scale(0);
+            }
+            100%{
+                transform: scale(1);
+            }
+        }
+        .ad320x50 .highlight p{
+            margin: 0;
+            position: absolute;
+            color: #fff;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-size: 7px;
+            background: rgb(33,62,128);
+            padding: 1px 5px;
+            border-radius: 5px;
+            animation: highlight-image 1s cubic-bezier(.43,1.91,.35,.74);
+            animation-fill-mode: forwards;
+            animation-delay: 7s;
+            transform: scale(0);
+        }
+        .ad320x50 .highlight .hail{
+            left: 5px;
+            bottom: 1px;
+        }
+        .ad320x50 .highlight .wind{
+            left: 58.3px;
+            bottom: 1px;
+        }
+                
+        .ad320x50 .button{
+            position: absolute;
+            background: rgb(33,62,128);
+            padding: 5px 20px;
+            font-size: 14px;
+            color: #fff;
+            font-family: 'Roboto Condensed', sans-serif;
+            border-radius: 10px;
+            box-shadow: 0px 2px #fff;
+            letter-spacing: .5px;
+            bottom: 15px;
+            right: 10px;
+            animation: button 1.5s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 8.5s;
+            opacity: 0;
+        }
+        @keyframes button{
+            0%{
+                bottom: -100%;
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+            }
+        }
+        .ad320x50 .copyright{
+            position: absolute;
+            bottom: 2px;right: 5px;
+            margin: 0;
+            font-size: 8px;
+            color: #fff;
+            animation: copyright 1s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 10.5s;
+            opacity: 0;
+        }
+        @keyframes copyright{
+            0%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+            }
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        .ad728x90{
+            width: 728px;
+            height: 90px;
+            display: block;
+            position: relative;
+            overflow: hidden;
+            border: 1px solid #000;
+        }
+        .ad728x90 .slide1{
+            background-image: linear-gradient(rgba(33,62,128,.8) ,rgba(33,62,128,.8)),url(image/lightning_PNG25.png),url(image/Hurricane-Irma.jpg);
+            height: 100%;
+            width: 130%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-size: 100% ,  auto 100%;
+            background-position: center ,right;
+            background-repeat: no-repeat;
+            animation: slide1 .8s ease-in;
+            animation-fill-mode: forwards;
+        }
+        @keyframes slide1{
+            0%{
+                left: -60px;
+                opacity: 0;
+            }
+            100%{
+                top: 0px;
+                opacity: 1;
+            }
+        }
+        
+        .ad728x90 .slide1-text{
+            position: absolute;
+            top: 0;
+            color: #fff;
+            width: 400px;
+            font-family: 'Domine', serif;
+            font-size: 25px;
+            padding: 15px 20px;
+            margin: 0;
+            opacity: 0;
+            animation: slide1-text 1.5s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 1s;
+        }
+        @keyframes slide1-text{
+            0%{
+                top: 40px;
+                opacity: 0;
+            }
+            100%{
+                top: 0px;
+                opacity: 1;
+            }
+        }
+        
+        .ad728x90 .main-image{
+            position: absolute;
+            width: 108%;
+            right: 0;
+            opacity: 0;
+            top: -120%;
+            animation: slide2 1.5s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 3s;
+        }
+        
+        @keyframes slide2{
+            0%{
+                right: 0px;
+                opacity: 0;
+            }
+            100%{
+                right: -50px;
+                opacity: 1;
+            }
+        }
+        
+        .ad728x90 .slide2-text{
+            position: absolute;
+            font-family: 'Domine', serif;
+            font-size: 25px;
+            padding: 5px 10px;
+            color: #fff;
+            background: #213e80;
+            width: 340px;
+            bottom: 0;
+            margin: 0;
+            right: 0;
+            opacity: 0;
+            animation: slide2-text 6s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 4s;
+        }
+        @keyframes slide2-text{
+            0%{
+                bottom: -100%;
+                opacity: 0;
+            }
+            25%{
+                bottom: 0px;
+                opacity: 1;
+            }
+            75%{
+                bottom: 0px;
+                opacity: 1;
+            }
+            100%{
+                bottom: -100%;
+                opacity: 0;
+            }
+        }
+        .ad728x90 .highlight img{
+            position: absolute;
+            width: 80px;
+            border-radius: 50%;
+            border: 3px solid rgba(255,255,255,.6);
+            transform: scale(0);
+        }
+        .ad728x90 .highlight-image1{
+            top: 2px;
+            left: 20px;
+            animation: highlight-image 1.5s cubic-bezier(.43,1.91,.35,.74);
+            animation-fill-mode: forwards;
+            animation-delay: 5.5s;
+        }
+        .ad728x90 .highlight-image2{
+            top: 2px;
+            left: 190px;
+            animation: highlight-image 1.5s cubic-bezier(.43,1.91,.35,.74);
+            animation-fill-mode: forwards;
+            animation-delay: 5.5s;
+        }
+        @keyframes highlight-image{
+            0%{
+                transform: scale(0);
+            }
+            100%{
+                transform: scale(1);
+            }
+        }
+        .ad728x90 .highlight p{
+            margin: 0;
+            position: absolute;
+            color: #fff;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-size: 14px;
+            text-align: center;
+            width: 55px;
+            background: rgb(33,62,128);
+            padding: 5px 5px;
+            border-radius: 5px;
+            animation: highlight-image 1s cubic-bezier(.43,1.91,.35,.74);
+            animation-fill-mode: forwards;
+            animation-delay: 7s;
+            transform: scale(0);
+        }
+        .ad728x90 .highlight .hail{
+            left: 115px;
+            bottom: 20px;
+        }
+        .ad728x90 .highlight .wind{
+            left: 286px;
+            bottom: 20px;
+        }
+                
+        .ad728x90 .button{
+            position: absolute;
+            background: rgb(33,62,128);
+            padding: 10px 30px;
+            font-size: 20px;
+            color: #fff;
+            font-family: 'Roboto Condensed', sans-serif;
+            border-radius: 10px;
+            box-shadow: 0px 2px #fff;
+            letter-spacing: .5px;
+            bottom: 25px;
+            right: 60px;
+            animation: button 1.5s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 8.5s;
+            opacity: 0;
+        }
+        @keyframes button{
+            0%{
+                bottom: -100%;
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+            }
+        }
+        .ad728x90 .copyright{
+            position: absolute;
+            bottom: 2px;right: 5px;
+            margin: 0;
+            font-size:10px;
+            color: rgb(33,62,128);
+            color: #fff;
+            animation: copyright 1s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 10.5s;
+            opacity: 0;
+        }
+        @keyframes copyright{
+            0%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+            }
+        }
+        
+        
+        
+        
+        
+        
+        
+        .ad970x90{
+            width: 970px;
+            height: 90px;
+            display: block;
+            position: relative;
+            overflow: hidden;
+            border: 1px solid #000;
+        }
+        .ad970x90 .slide1{
+            background-image: linear-gradient(rgba(33,62,128,.8) ,rgba(33,62,128,.8)),url(image/lightning_PNG25.png),url(image/Hurricane-Irma.jpg);
+            height: 100%;
+            width: 130%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-size: 100% ,  auto 100%;
+            background-position: center ,right;
+            background-repeat: no-repeat;
+            animation: slide1 .8s ease-in;
+            animation-fill-mode: forwards;
+        }
+        @keyframes slide1{
+            0%{
+                left: -60px;
+                opacity: 0;
+            }
+            100%{
+                top: 0px;
+                opacity: 1;
+            }
+        }
+        
+        .ad970x90 .slide1-text{
+            position: absolute;
+            top: 0;
+            color: #fff;
+            width: 400px;
+            font-family: 'Domine', serif;
+            font-size: 25px;
+            padding: 15px 20px;
+            margin: 0;
+            opacity: 0;
+            animation: slide1-text 1.5s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 1s;
+        }
+        @keyframes slide1-text{
+            0%{
+                top: 40px;
+                opacity: 0;
+            }
+            100%{
+                top: 0px;
+                opacity: 1;
+            }
+        }
+        
+        .ad970x90 .main-image{
+            position: absolute;
+            width: 108%;
+            right: 0;
+            opacity: 0;
+            top: -150%;
+            animation: slide2 1.5s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 3s;
+        }
+        
+        @keyframes slide2{
+            0%{
+                right: 0px;
+                opacity: 0;
+            }
+            100%{
+                right: -50px;
+                opacity: 1;
+            }
+        }
+        
+        .ad970x90 .slide2-text{
+            position: absolute;
+            font-family: 'Domine', serif;
+            font-size: 25px;
+            padding: 5px 10px;
+            color: #fff;
+            background: #213e80;
+            width: 400px;
+            bottom: 0;
+            margin: 0;
+            right: 0;
+            opacity: 0;
+            animation: slide2-text 6s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 4s;
+        }
+        @keyframes slide2-text{
+            0%{
+                bottom: -100%;
+                opacity: 0;
+            }
+            25%{
+                bottom: 0px;
+                opacity: 1;
+            }
+            75%{
+                bottom: 0px;
+                opacity: 1;
+            }
+            100%{
+                bottom: -100%;
+                opacity: 0;
+            }
+        }
+        .ad970x90 .highlight img{
+            position: absolute;
+            width: 80px;
+            border-radius: 50%;
+            border: 3px solid rgba(255,255,255,.6);
+            transform: scale(0);
+        }
+        .ad970x90 .highlight-image1{
+            top: 2px;
+            left: 20px;
+            animation: highlight-image 1.5s cubic-bezier(.43,1.91,.35,.74);
+            animation-fill-mode: forwards;
+            animation-delay: 5.5s;
+        }
+        .ad970x90 .highlight-image2{
+            top: 2px;
+            left: 220px;
+            animation: highlight-image 1.5s cubic-bezier(.43,1.91,.35,.74);
+            animation-fill-mode: forwards;
+            animation-delay: 5.5s;
+        }
+        @keyframes highlight-image{
+            0%{
+                transform: scale(0);
+            }
+            100%{
+                transform: scale(1);
+            }
+        }
+        .ad970x90 .highlight p{
+            margin: 0;
+            position: absolute;
+            color: #fff;
+            font-family: 'Roboto Condensed', sans-serif;
+            font-size: 16px;
+            text-align: center;
+            background: rgb(33,62,128);
+            padding: 5px 5px;
+            border-radius: 5px;
+            animation: highlight-image 1s cubic-bezier(.43,1.91,.35,.74);
+            animation-fill-mode: forwards;
+            animation-delay: 7s;
+            transform: scale(0);
+        }
+        .ad970x90 .highlight .hail{
+            left: 115px;
+            bottom: 28px;
+        }
+        .ad970x90 .highlight .wind{
+            left: 316px;
+            bottom: 28px;
+        }
+                
+        .ad970x90 .button{
+            position: absolute;
+            background: rgb(33,62,128);
+            padding: 10px 30px;
+            font-size: 20px;
+            color: #fff;
+            font-family: 'Roboto Condensed', sans-serif;
+            border-radius: 10px;
+            box-shadow: 0px 2px #fff;
+            letter-spacing: .5px;
+            bottom: 25px;
+            right: 150px;
+            animation: button 1.5s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 8.5s;
+            opacity: 0;
+        }
+        @keyframes button{
+            0%{
+                bottom: -100%;
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+            }
+        }
+        .ad970x90 .copyright{
+            position: absolute;
+            bottom: 2px;right: 5px;
+            margin: 0;
+            font-size:10px;
+            color: rgb(33,62,128);
+            color: #fff;
+            animation: copyright 1s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 10.5s;
+            opacity: 0;
+        }
+        @keyframes copyright{
+            0%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+            }
+        }
+        
+        
+        
+        
+        
         
         
     
@@ -917,10 +1585,10 @@
           <p class="copyright">&copy; 2019 CRLLC #1331061</p>
        </div>
    </a>
-   
-   <br>
-   <br>
-   
+   <!-- ad 300x600 end -->
+     <br>
+     <br>
+   <!-- ad 160x600 start -->
    <a href="" class="ad-wrap">
        <div class="ad160x600">
           <div class="slide1">
@@ -940,12 +1608,12 @@
           <p class="copyright">&copy; 2019 CRLLC #1331061</p>
        </div>
    </a>
-      
-   <br>
-   <br>
-   
+   <!-- ad 160x600 end -->
+     <br>
+     <br>
+   <!-- ad 300x50 start -->
    <a href="" class="ad-wrap">
-       <div class="ad160x600">
+       <div class="ad300x50">
           <div class="slide1">
               <P class="slide1-text">The <b>number one</b> problem after storm damage</P>
           </div>
@@ -963,6 +1631,76 @@
           <p class="copyright">&copy; 2019 CRLLC #1331061</p>
        </div>
    </a>
+   <!-- ad 300x50 end -->
+     <br>
+     <br>
+   <!-- ad 320x50 start -->
+   <a href="" class="ad-wrap">
+       <div class="ad320x50">
+          <div class="slide1">
+              <P class="slide1-text">The <b>number one</b> problem after storm damage</P>
+          </div>
+          <div class="slide2">
+              <img src="image/home.jpg" alt="" class="main-image">
+              <P class="slide2-text">is a <b>Homeowner Unaware</b> They May Have it.</P>
+          </div>
+          <div class="highlight">
+              <img src="image/haildamage.png" alt="" class="highlight-image1">
+              <img src="image/winddamage.png" alt="" class="highlight-image2">
+              <p class="hail"> Hail damage</p>
+              <p class="wind"> Wind damage</p>
+          </div>
+          <div class="button">Schedule a Inspection</div>
+          <p class="copyright">&copy; 2019 CRLLC #1331061</p>
+       </div>
+   </a>
+   <!-- ad 320x50 end -->
+     <br>
+     <br>
+   <!-- ad 728x90 start -->
+   <a href="" class="ad-wrap">
+       <div class="ad728x90">
+          <div class="slide1">
+              <P class="slide1-text">The <b>number one</b> problem after storm damage</P>
+          </div>
+          <div class="slide2">
+              <img src="image/home.jpg" alt="" class="main-image">
+              <P class="slide2-text">is a <b>Homeowner Unaware</b> They May Have it.</P>
+          </div>
+          <div class="highlight">
+              <img src="image/haildamage.png" alt="" class="highlight-image1">
+              <img src="image/winddamage.png" alt="" class="highlight-image2">
+              <p class="hail"> Hail damage</p>
+              <p class="wind"> Wind damage</p>
+          </div>
+          <div class="button">Schedule a Inspection</div>
+          <p class="copyright">&copy; 2019 CRLLC #1331061</p>
+       </div>
+   </a>
+    <!-- ad 728x90 end -->
+     <br>
+     <br>
+   <!-- ad 970x90 start -->
+   <a href="" class="ad-wrap">
+       <div class="ad970x90">
+          <div class="slide1">
+              <P class="slide1-text">The <b>number one</b> problem after storm damage</P>
+          </div>
+          <div class="slide2">
+              <img src="image/home.jpg" alt="" class="main-image">
+              <P class="slide2-text">is a <b>Homeowner Unaware</b> They May Have it.</P>
+          </div>
+          <div class="highlight">
+              <img src="image/haildamage.png" alt="" class="highlight-image1">
+              <img src="image/winddamage.png" alt="" class="highlight-image2">
+              <p class="hail"> Hail damage</p>
+              <p class="wind"> Wind damage</p>
+          </div>
+          <div class="button">Schedule a Inspection</div>
+          <p class="copyright">&copy; 2019 CRLLC #1331061</p>
+       </div>
+   </a>
+   <!-- ad 970x90 end -->
     
 </body>
 </html>
